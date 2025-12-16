@@ -1,3 +1,28 @@
-venv/
+# Python
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# Streamlit cache
 .streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter (if ever used)
+.ipynb_checkpoints/
+
+# PDFs / generated reports
+*.pdf
+
+# CSV exports (optional – remove if you want to track them)
+*.csv
